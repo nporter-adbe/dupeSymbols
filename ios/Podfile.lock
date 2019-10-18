@@ -19,6 +19,10 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - RCTACPAnalytics (1.1.1):
+    - React
+  - RCTACPCore (1.1.2):
+    - React
   - RCTRequired (0.61.2)
   - RCTTypeSafety (0.61.2):
     - FBLazyVector (= 0.61.2)
@@ -225,6 +229,8 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - "RCTACPAnalytics (from `../node_modules/@adobe/react-native-acpanalytics`)"
+  - "RCTACPCore (from `../node_modules/@adobe/react-native-acpcore`)"
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -264,6 +270,10 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  RCTACPAnalytics:
+    :path: "../node_modules/@adobe/react-native-acpanalytics"
+  RCTACPCore:
+    :path: "../node_modules/@adobe/react-native-acpcore"
   RCTRequired:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
@@ -312,6 +322,8 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 5a764c60abdc3336a213e5310c40b74741f32839
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  RCTACPAnalytics: 1cc509e26d364e29cf5e158c7f2cc1a3e7fad32c
+  RCTACPCore: 16aeb5f76632bd294c9b9fda0d747ec847db5412
   RCTRequired: c639d59ed389cfb1f1203f65c2ea946d8ec586e2
   RCTTypeSafety: dc23fb655d6c77667c78e327bf661bc11e3b8aec
   React: 7e586e5d7bec12b91c1a096826b0fc9ab1da7865
@@ -333,6 +345,6 @@ SPEC CHECKSUMS:
   ReactCommon: 5848032ed2f274fcb40f6b9ec24067787c42d479
   Yoga: 14927e37bd25376d216b150ab2a561773d57911f
 
-PODFILE CHECKSUM: d9fb31930270e28d19dc114cdb9fea3680bc8fff
+PODFILE CHECKSUM: f517ef19dabee070dcd69e9be83eefc98724e541
 
 COCOAPODS: 1.7.5
